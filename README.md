@@ -1,5 +1,5 @@
 # Reconnaissance-faciale-pour-identifier-les-jumeaux-parfaits-via-r-seau-neuronal-siamois
-# Projet de Recherche Scientifique sur la Résolution du Problème des Jumeaux Parfaits
+Projet de Recherche Scientifique sur la Résolution du Problème des Jumeaux Parfaits
 
 salut je suis #Deo# Ce projet vise à résoudre le problème des jumeaux parfaits en utilisant un réseau siamois (siamesse) dans le cadre de la recherche scientifique. Le réseau siamois est une architecture de réseau de neurones qui est souvent utilisée pour résoudre des problèmes de similarité ou de comparaison entre des paires de données.
 
