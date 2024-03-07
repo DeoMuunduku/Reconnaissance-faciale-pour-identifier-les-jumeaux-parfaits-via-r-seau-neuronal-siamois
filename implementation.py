@@ -29,8 +29,7 @@ def InceptionResNetV2():
 	x = Conv2D(256, 3, strides=2, padding='valid', use_bias=False, name= 'Conv2d_4b_3x3') (x)
 	x = BatchNormalization(axis=3, momentum=0.995, epsilon=0.001, scale=False, name='Conv2d_4b_3x3_BatchNorm')(x)
 	x = Activation('relu', name='Conv2d_4b_3x3_Activation')(x)
-	
-	# 5x Block35 (Inception-ResNet-A block):
+
 	branch_0 = Conv2D(32, 1, strides=1, padding='same', use_bias=False, name= 'Block35_1_Branch_0_Conv2d_1x1') (x)
 	branch_0 = BatchNormalization(axis=3, momentum=0.995, epsilon=0.001, scale=False, name='Block35_1_Branch_0_Conv2d_1x1_BatchNorm')(branch_0)
 	branch_0 = Activation('relu', name='Block35_1_Branch_0_Conv2d_1x1_Activation')(branch_0)
@@ -516,10 +515,3 @@ def InceptionResNetV2():
 	model = Model(inputs, x, name='inception_resnet_v1')
 
 	return model
-
-# Create the FaceNet model
-# face_encoder = InceptionResNetV2()
-
-# # Load the weights of the model
-# path = "facenet_keras_weights.h5"
-# face_encoder.load_weights(path)
