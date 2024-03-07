@@ -11,6 +11,28 @@ Le but de ce projet est de développer un modèle de réseau siamois capable de 
 
 ### Préparation des Données
 
+projet_jumeaux_parfaits/
+│
+├── data/
+│   ├── images/                # Dossier contenant les images des jumeaux
+│   │   ├── jumeau1/          # Dossier pour les images du premier jumeau
+│   │   ├── jumeau2/          # Dossier pour les images du deuxième jumeau
+│   │   └── ...
+│   └── ...
+│
+├── models/                    # Dossier pour les modèles de réseau neuronal
+│   ├── implementation.py       # Fichier contenant l'architecture du réseau siamois
+│   └── ...
+│
+├── scripts/                   # Dossier pour les scripts Python
+│   ├── entrainement.py       # Script pour l'entraînement du modèle
+│   ├── evaluation.py         # Script pour l'évaluation du modèle
+│   └── test_temps_reel.py    # Script pour les tests en temps réel
+│
+├── README.md                 # Fichier README du projet
+└── requirements.txt          # Fichier contenant les dépendances du projet
+
+
 1. **Organisation des Images** : Commencez par créer des répertoires pour stocker vos images. Chaque image doit être placée dans un dossier portant un nom approprié, par exemple, un dossier pour chaque jumeau avec des images de lui-même.
 2. **Qualité des Images** : Assurez-vous que les images sont de haute qualité et bien formatées pour une meilleure précision de la reconnaissance.
 
