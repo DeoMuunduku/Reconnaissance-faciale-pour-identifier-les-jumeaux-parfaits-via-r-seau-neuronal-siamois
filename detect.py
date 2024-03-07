@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/deo/Téléchargements/ecore')  
+sys.path.append('/home/deo/Téléchargements/Deo_dossier_joint')  
 
 
 from implementation import *
